@@ -1,8 +1,16 @@
-const Search = () => {
+const Search = ({ searchTerm, setSearchTerm }) => {
     return (
-        <>
-            <h1>Search</h1>
-        </>
+        <div className="search">
+            <div>
+                <img src="search.svg" alt="search" />
+
+                <input 
+                    type="text" 
+                    placeholder="Search from thousands of movies..." 
+                    value={ searchTerm } 
+                    onChange={(event) => setSearchTerm(event.target.value)} />
+            </div>
+        </div>
     );
 };
 

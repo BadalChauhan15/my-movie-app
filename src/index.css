@@ -21,10 +21,15 @@
 }
 
 @layer base {
+
   body {
     font-family: "DM Sans", serif;
     font-optical-sizing: auto;
     background: #030014;
+  }
+
+  body {
+    @apply overflow-x-hidden;
   }
 
   h1 {
@@ -54,7 +59,7 @@
   }
 
   .wrapper {
-    @apply px-5 py-12 xs:p-10 max-w-7xl mx-auto flex flex-col relative z-10;
+    @apply px-10 py-12 xs:p-10 max-w-7xl mx-auto flex flex-col relative z-10;
   }
 
   .trending {
