@@ -1,3 +1,15 @@
+<p align="center">
+  <img src="./public/hero-img.png" alt="Movie App Banner" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E" />
+  <img src="https://img.shields.io/badge/API-005571?style=for-the-badge&logo=api&logoColor=white" />
+</p>
+
 # My Movie App 🎬
 
 A sleek and modern movie browsing app built with **React**, **Tailwind CSS**, and **Movie API**. This app allows users to search for movies, view details, and explore trending films effortlessly.
@@ -50,9 +62,6 @@ This app fetches data from an external movie API. To set up your API key:
    VITE_MOVIE_API_KEY=your_api_key_here
    ```
 4. Restart the development server.
-
-## 📜 License
-This project is licensed under the **MIT License**.
 
 ## 🤝 Contributing
 Contributions are welcome! If you'd like to improve the app, follow these steps:
