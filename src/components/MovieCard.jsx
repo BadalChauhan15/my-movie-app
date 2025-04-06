@@ -1,10 +1,12 @@
-function MovieCard({ movie: { 
+import React from "react";
+
+const MovieCard = ({ movie: { 
     title,
     poster_path,
     vote_average,
     release_date,
     original_language
-} }) {
+} }) => {
   return (
     <div className="movie-card">
         <img src={ poster_path 
